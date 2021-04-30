@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TGC</title>
+</head>
+<body>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<span class="iconify icon:mdi-pokeball icon-inline:false"></span>
+<iconify-icon data-icon="mdi-pokeball"></iconify-icon>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+<span class="iconify icon:mdi-pokeball icon-inline:false"></span>
+<iconify-icon data-icon="mdi-pokeball"></iconify-icon>
+<script src="https://code.iconify.design/1/1.0.7/incoinfy.min.js"></script>
+
+    <main>
+        <article>
+    <h1  align ="center" style="color: red; font-size: 50px; background-color: darkblue ;">¿Que es el TGC?</h1>
+    <p  style="background-color: yellow;">Pokémon Trading Card Game (en español Pokémon: Juego de Cartas Coleccionables) es un juego de cartas coleccionables competitivo para dos jugadores basado en la saga de videojuegos Pokémon.</p>
+    <p>La primera edición del juego de cartas, inspirada por el éxito de los videojuegos Pokémon Rojo y Pokémon Azul fue lanzada en 1996 en Japón por la empresa Media Factory. Debido a su gran éxito en el mercado nipón, en 1999 el juego se lanzó en Estados Unidos y Europa. Desde entonces se han ido comercializando periódicamente nuevas expansiones que añaden nuevos Pokémon y cartas al juego. El lanzamiento de nuevas expansiones suele coincidir con el lanzamiento de nuevas entregas en la saga de videojuegos homónima. Los derechos de propiedad y distribución comercial en todo el mundo corresponden a The Pokémon Company, filial de la multinacional japonesa Nintendo.</p>
+    <p>Hasta el año 2003, la traducción y comercialización del juego de cartas en Estados Unidos y Europa estaba cedida en régimen de franquicia a la compañía estadounidense de juegos de mesa Wizards of the Coast. En 2006 The Pokémon Company se hizo cargo de la comercialización de las cartas también en territorio japonés.</p>
+    
+    <div align="center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr-70b7J0vcsaKShedV4h9gRBdsrcJSkEGG-z2zCjakiWQ6C2Xw1o-M6g5_DtQMv8aONI&usqp=CAU" alt="">
+    </div>  
+    <!--  <audio controls src="">Cancion de ambiente/Fondo</audio> -->
+    <div>
+        <audio controls src="Recursos/Musica PK de fondo1.mp3"></audio>
+    </div>
+
+    <div class="icon-box">
+        <div class="poke-ball icon" data-alt="poke-ball"></div>
+        </div>
+  
+    <!-- Resgistrar las cartas -->
+    <form action=""></form>
+    <fieldset style="border-color: yellow;">
+        <legend style="color: blue;">Registre Carta </legend>
+        <div>
+            <label for="Nombre del Pkm">Nombre  del Pkm</label>
+            <input type="text" name="Nombre del Pkm" id="Nombre del Pkm">
+        </div>
+        <div>
+            <label for="Region">Region</label>
+            <select name="Region" id="Region">
+            <option value="1">KANTO</option>
+            <option value="2">JOTHO</option>
+            <option value="3">HOENN</option>
+            <option value="4">SINHO</option>
+            <option value="5">UNOVA</option>
+            <option value="6">KALOS</option>
+            <option value="7">ALOLA</option>
+            <option value="8">GALAR</option>
+        </select>
+        </div>
+        <div>
+            <label for="archivo">Subir captura de la carta</label>
+            <input type="file" name="archivo" id="archivo">
+        </div>
+    </fieldset>
+    <!-- Tabla de tipos talvez -->
+    <p>Para saber mas aserca de los Pokemón consulte la tabla</p>
+    <div align="center">
+        <h2>Tabla de Tipos Pk</h2>
+    </div>
+    <table border="15">
+        <tr><th>TIPO</th>
+            <th>EFECTIVO</th>
+            <th>DEBIL CONTRA</th>
+            <th>POCO EFECTIVO</th>
+            <th>INMUNE</th>
+        </tr>
+        <tr>
+            <td style="color: silver;">Acero</td>
+            <td >Tierra,Roca,Hada</td>
+            <td>Lucha,Fuego,Tierra</td>
+            <td>Acero,Agua,Fuego,Lucha,Electrico</td>
+            <td style="color: rebeccapurple;">Veneno</td>
+        </tr>
+        <tr>
+            <td style="color: rgb(0, 247, 255);">Volador</td>
+            <td>Lucha,Planta,Bicho</td>
+            <td>Hielo,Electrico,Roca</td>
+            <td>Acero,Electrico,Roca</td>
+            <td>Tierra</td>
+        </tr>
+        <tr>
+            <td style="color: blue;">Agua</td>
+            <td>Fuego,Roca,Tierra</td>
+            <td>Electrico,Planta</td>
+            <td>Dragon,Planta</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td style="color: rgb(0, 110, 255);">Hielo</td>
+            <td>Volador,Planta,Tierra,Dragon</td>
+            <td>Acero,Roca,Fuefo,Lucha</td>
+            <td>Acero,Agua,Hielo,Fuego</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td style="color: green;">Planta</td>
+            <td>Agua,Roca,Tierra</td>
+            <td>Volador,Hielo,Bichom,Fuego,Veneno</td>
+            <td>Acero,Volador,Planta,Bicho,Fuego,Veneno,Dragon</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td style="color: greenyellow;">Bicho</td>
+            <td>Planta,Siniestro,Psiquico</td>
+            <td>Volador,Roca,Fuego</td>
+            <td>Acero,Volador,Hada,Lucha,Fuego,Veneno,Dragon</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td style="color: yellow;">Electrico</td>
+            <td>Agua,Volador</td>
+            <td>Tierra</td>
+            <td>Planta,Electrico,Dragon</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td>Normal</td>
+            <td>&Oslash;</td>
+            <td>Lucha</td>
+            <td>Acero,Roca</td>
+            <td>Fantasma</td>
+        </tr>
+        <tr>
+            <td style="color: peru;">Roca</td>
+            <td>Volador,Bichoh,Hielo,Fuego</td>
+            <td>Acero,Agua,Planta,Tierra,Lucha/td>
+            <td>Acero,Tierra,Lucha</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td style="color: maroon;">Tierra</td>
+            <td>Acero,Electrico,Roca,Fuego,Veneno</td>
+            <td>Agua,Hielo,Planta</td>
+            <td>planta,Bicho</td>
+            <td>Electrico</td>
+        </tr>
+        <tr>
+            <td style="color:red;">Fuego</td>
+            <td>Planta,Hielo,Acero,Bicho</td>
+            <td>Agua,Tierra,Roca</td>
+            <td>Agua,Roca,Fuego,Dragon</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td style="color: rgba(255, 0, 0, 0.466);">Lucha</td>
+            <td>Acero,Hielo,Normal,Roca,Siniestro</td>
+            <td>Volador,Psiquico,Hada</td>
+            <td>Volador,Bicho,Hada,Psiquico,Veneno</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td style="color: pink;">Hada</td>
+            <td>Lucha,Dragon,Siniestro</td>
+            <td>Acero,Veneno</td>
+            <td>Acero,Fuego,Veneno</td>
+            <td>Dragon</td>
+        </tr>
+        <tr>
+            <td style="color: palevioletred;">Psiquico</td>
+            <td>Veneno,Fantasma,Lucha</td>
+            <td>Siniestro,Fantasma,Bicho</td>
+            <td>Psiquico,Acero</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td style="color: purple;">Veneno</td>
+            <td>Planta,Hada</td>
+            <td>Psiquico,Tierra</td>
+            <td>Roca,Tierra,Veneno,Dragon</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td style="color: orange ;">Dragon</td>
+            <td>Dragon</td>
+            <td>Hielo,Hada,Dragon</td>
+            <td>Acero</td>
+            <td>&Oslash;</td>
+        </tr>
+        <tr>
+            <td style="color: violet ;">Fantasma</td>
+            <td>Psiquico,Fantasma</td>
+            <td>Fantasma,Siniestro</td>
+            <td>Siniestro</td>
+            <td>Normal</td>
+        </tr>
+        <tr>
+            <td style="color: rgb(5, 5, 5);">Siniestro</td>
+            <td>Psiquico,Fantasma</td>
+            <td>Bicho,Lucha,Hada</td>
+            <td>Lucha,Hada,Siniestro</td>
+            <td>Psiquico</td>
+        </tr>
+    </table>
+    <div align="center">
+        <img src="https://latecnologiaatualcance.com/wp-content/uploads/Strengths-and-Weaknesses-2.png">
+    </div>
+
+    
+    <div>
+        <ol>
+            <li><a href="JuanTovar00_index.html">REGRESAR AL INICIO</a></li>
+        </ol>
+    </div>
+        </article>
+    </main>
+
+</body>
+</html>
