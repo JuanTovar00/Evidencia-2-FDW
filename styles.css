@@ -1,0 +1,16 @@
+ol{
+    color: blue;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 0%;
+    padding-left: 0%;
+    background-color: aquamarine;
+    list-style: none;
+
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    align-content: space-between;
+}
