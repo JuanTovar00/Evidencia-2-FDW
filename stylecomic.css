@@ -1,3 +1,21 @@
+img{
+    width: 50%;
+    margin: 0% auto;
+    display: block;
+}
+
+header{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: steelblue;
+    color: yellow;
+}
+
+* p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: whitesmoke;
+}
+
 pre{
     text-align: center;
     background-color:yellow ;
@@ -5,6 +23,7 @@ pre{
 }
 
 #PG{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     background-color: aqua;
     color: tomato;
@@ -12,18 +31,21 @@ pre{
 }
 
 #SG{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     background: silver;
     color: gold;
 }
 
 #TG{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     background-color:royalblue ;
     color:red;
 }
 
 #CG{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     background-color:rgb(0, 225, 255) ;
     color:violet;
@@ -31,11 +53,13 @@ pre{
 
 #QG{
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: black;
     color: white;
 }
 
 #SxG{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align:center ;
     background-color: crimson;
     color: blue;
@@ -44,6 +68,7 @@ pre{
 #SpG{
     text-align: center;
     background-color: orange;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:purple;
 
 
@@ -51,6 +76,53 @@ pre{
 
 #OG{
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
     background-color: steelblue;
     color: brown;
 }
+
+body{
+    background: url(Recursos/PKlogo.png);
+
+    display: grid;
+    grid-template-columns: 4fr 0.5fr;
+    grid-template-areas: "header header"
+                         "main aside"
+                         "footerfooter";
+    gap: 1em;
+}
+
+aside {
+    color: steelblue;
+    background: url(Recursos/Pokemon-Logo\ 2\ .png);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+aside a {
+    background: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+aside:hover{
+    background: url(Recursos/pokeball.png);
+}
+
+footer{
+    background: url(Recursos/pokeball.png);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+ol{
+    background: tomato;
+    color: steelblue;
+}
+
+ol :hover {
+    background: steelblue;
+    color: tomato;
+}
+
