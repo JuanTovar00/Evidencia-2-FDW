@@ -1,11 +1,59 @@
-ol{
-    color: blue;
-    font-weight: bold;
-    font-size: 1.4em;
+/* etilos de la pagina "index" */
+
+header a{
+   width: 1681.9px;
+    height: 200px;
+    display: block;
+}
+
+header img{
+    width: 70%;
+    margin: 0% auto;
+    display: block;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: yellow;
+    background-color: blue;
+}
+
+ body{
+     background:url(Recursos/pokeball.png);
+     display:grid;
+     grid-template-columns: 3fr 1fr;
+     grid-template-areas:"main"
+                         "  header header" ;
+    gap: 1em;
+ }
+
+
+ main{
+    grid-area: main;
+}
+
+aside{
+    padding-left: 1em;
+    grid-area: aside;
+}
+
+header{
+    grid-area: header;
+}
+
+
+ article img{
+     border: solid color silver;
+     align-items: center;
+ }
+
+#menu_principal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
     margin-top: 0%;
     padding-left: 0%;
-    background-color: aquamarine;
+    background-color: steelblue;
     list-style: none;
 
     display: flex;
@@ -13,4 +61,24 @@ ol{
     height: 50px;
     align-items: center;
     align-content: space-between;
+}
+
+#menu_principal li:hover{
+    background-color: blue;
+} 
+
+#menu_principal li{
+    flex-grow: 1;
+    padding:0.3em 0 ;
+}
+
+#link_login{
+    flex-grow: 2;
+}
+
+#menu_principal a{
+    color:yellow;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
 }

@@ -1,0 +1,55 @@
+img{
+    width: 25%;
+    margin: 0% auto;
+    display: block;
+}
+
+#Titulo{
+    text-align: center;
+    color: blue;
+    background-color: yellow;
+}
+
+#Correo{
+    background: tomato;
+    text-align: center;
+}
+
+#Correo :hover {
+    background-color: blue;
+}
+
+#Cu{
+    background-color: rgba(0, 204, 255, 0.644);
+    text-align: center;
+}
+
+#Tel{
+    background: yellowgreen;
+    text-align: center;
+}
+
+#LinkGit{
+    background-color: teal;
+    text-align: center;
+}
+
+body{
+    background: url(Recursos/images.jpg);
+}
+
+ol{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: green;
+    color: greenyellow;
+}
+
+ol:hover{
+    background-color: greenyellow;
+    color: green;
+}
+
+li a :hover{
+    color: yellow ;
+} 
