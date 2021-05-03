@@ -1,0 +1,56 @@
+pre{
+    text-align: center;
+    background-color:yellow ;
+    color: blue;
+}
+
+#PG{
+    text-align: center;
+    background-color: aqua;
+    color: tomato;
+
+}
+
+#SG{
+    text-align: center;
+    background: silver;
+    color: gold;
+}
+
+#TG{
+    text-align: center;
+    background-color:royalblue ;
+    color:red;
+}
+
+#CG{
+    text-align: center;
+    background-color:rgb(0, 225, 255) ;
+    color:violet;
+}
+
+#QG{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#SxG{
+    text-align:center ;
+    background-color: crimson;
+    color: blue;
+}
+
+#SpG{
+    text-align: center;
+    background-color: orange;
+    color:purple;
+
+
+}
+
+#OG{
+    text-align: center;
+    background-color: steelblue;
+    color: brown;
+}
